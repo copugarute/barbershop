@@ -3,9 +3,13 @@
 //vendors
 @import 'vendors/bootstrap/bootstrap';
 //base
+@import 'base/typography';
 //layout
 @import 'layouts/navbar';
+@import 'layouts/hero-section';
+@import 'layouts/seccion-1';
 //components
+@import 'components/botones';
 //pages
 @import 'page/index';
 //themes
