@@ -10806,11 +10806,13 @@ header div {
 
 footer {
   background-color: #121619;
-  height: 8rem;
+  height: auto;
 }
 footer img {
   width: 6.5rem;
   height: 4rem;
+  position: relative;
+  left: 45%;
 }
 
 .btn {
@@ -10822,7 +10824,9 @@ footer img {
 .seccion-2 img {
   border: none;
   border-radius: 135px;
-  align-items: center;
+  position: relative;
+  bottom: 20%;
+  left: 20%;
 }
 
 .paginacion {
@@ -10832,8 +10836,9 @@ footer img {
 .paginacion a {
   color: #121619;
 }
-.paginacion .prev {
-  border-radius: 50px;
+.paginacion .page-item {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 .paginacion .next {
   border-radius: 50px;

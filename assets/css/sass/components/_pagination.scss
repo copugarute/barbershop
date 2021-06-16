@@ -6,9 +6,9 @@
        color: $color2;
    }
 
-   .prev{
-       
-       border-radius: 50px;
+   .page-item{
+       border-top-left-radius: 50px;
+       border-bottom-left-radius: 50px;
    }
 
    .next{
