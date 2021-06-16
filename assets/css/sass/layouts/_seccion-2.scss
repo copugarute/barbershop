@@ -1,0 +1,23 @@
+.seccion-2{
+    display: inline;
+
+
+    h3{
+        font-size:$x-large;
+        font-family: $font-1;
+        font-weight:$fontweight-1;
+        font-style: $fontstyle-1;
+        
+    }
+    h4{
+        @include h4;
+        
+    } 
+
+    p{
+        font-size:$medium;
+        font-family: $font-2;
+        font-weight:$fontweight-2;
+      
+    }
+}

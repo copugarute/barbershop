@@ -1,0 +1,17 @@
+.paginacion{
+    background-color: $color3;
+    height: 6rem;
+
+   a{
+       color: $color2;
+   }
+
+   .prev{
+       
+       border-radius: 50px;
+   }
+
+   .next{
+       border-radius: 50px;
+   }
+} 
