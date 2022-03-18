@@ -1,0 +1,19 @@
+//abstract
+@import 'abstract/variables';
+@import 'abstract/mixins';
+//vendors
+@import 'vendors/bootstrap/bootstrap';
+//base
+@import 'base/typography';
+//layout
+@import 'layouts/navbar';
+@import 'layouts/hero-section';
+@import 'layouts/seccion-1';
+@import 'layouts/seccion-2';
+@import 'layouts/footer';
+//components
+@import 'components/botones';
+@import 'components/thumbnail';
+@import 'components/pagination';
+//pages
+//themes

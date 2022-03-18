@@ -1,0 +1,29 @@
+header{
+    height: 100vh;
+    background-image: url('../../../img/post-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: table;
+    position: relative;
+}
+ 
+header{
+    div{
+        position: absolute;
+        bottom: 50%;
+        width: 50%;
+        left: 25%;
+    }
+}
+
+.hero-section{
+    h1{
+        font-family: $font-1;
+        font-size: $xx-large;
+        font-weight: $fontweight-1;
+        font-style: $fontstyle-1;
+
+    }
+}
+

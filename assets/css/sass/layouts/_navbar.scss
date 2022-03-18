@@ -1,0 +1,16 @@
+nav{
+    background-color: $color2;
+}
+
+.navbar-brand{
+    img{
+        width: 5rem;
+        height: 2rem;
+    }
+}
+.nav-link{
+    :hover{
+        color: $color5;
+    }
+}
+
